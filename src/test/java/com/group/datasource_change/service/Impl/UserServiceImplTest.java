@@ -32,7 +32,7 @@ class UserServiceImplTest {
     void queryStudentByName1() {
        List<UserEntity> list = userService.queryStudentByName1("chun");
        System.out.println(list);
-       List<UserEntity> list1 = userService.queryStudentByName2("chun");
+       List<UserEntity> list1 = userService.queryStudentByName2("ru");
        System.out.println(list1);
     }
 

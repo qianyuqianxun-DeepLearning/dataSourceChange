@@ -23,7 +23,7 @@
         FROM student
         <where>
             <if test="name!=null and name!=''">
-                age = #{name,jdbcType=VARCHAR}
+                name = #{name,jdbcType=VARCHAR}
             </if>
         </where>
     </select>
