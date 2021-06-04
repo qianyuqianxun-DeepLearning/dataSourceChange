@@ -1,0 +1,17 @@
+server:
+  port: 8080 # 启动端口
+spring:
+  datasource:
+    db1: # 数据源1
+      jdbc-url: jdbc:mysql://localhost:3306/Student1?characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=GMT%2B8
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    db2: # 数据源2
+      jdbc-url: jdbc:mysql://localhost:3306/Student2?characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=GMT%2B8
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+      logging.level.org.springframework.boot.autoconfigure: error
